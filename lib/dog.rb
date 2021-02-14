@@ -7,7 +7,21 @@ class Dog
     @dog_name = dog_name
   end
   
-  def dog_name =
+  def dog_name
+    @dog_name
+  end
+  
+  def initialize(breed)
+    @breed = breed
+  end
+  
+  def breed=(breed)
+    @breed = breed
+  end
+  
+  def breed
+    @breed
+  end
 end
 
 dog_name = Dog.new("Mutt")
