@@ -5,8 +5,7 @@ class Dog
   
   def initialize(breed)
     @breed = breed
-    if breed = nil 
-      return "Mutt"
-    end
   end
 end
+
+Dog.new.breed = "Mutt"
