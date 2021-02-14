@@ -8,4 +8,4 @@ class Dog
   end
 end
 
-Dog.breed = "Mutt"
+dog_name = Dog.new("Mutt")
