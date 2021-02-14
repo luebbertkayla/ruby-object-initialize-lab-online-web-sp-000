@@ -25,4 +25,4 @@ class Dog
 end
 
 dog_name = Dog.new
-dog_name =
+dog_name = "Mutt"
