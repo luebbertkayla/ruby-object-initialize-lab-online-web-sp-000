@@ -23,6 +23,3 @@ class Dog
     @breed
   end
 end
-
-dog_name = Dog.new
-dog_name = "Mutt"
