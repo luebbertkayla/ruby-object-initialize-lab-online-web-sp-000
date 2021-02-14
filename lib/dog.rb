@@ -3,7 +3,11 @@ class Dog
     @dog_name = dog_name
   end
   
-  def dog_name=
+  def dog_name=(dog_name)
+    @dog_name = dog_name
+  end
+  
+  def dog_name =
 end
 
 dog_name = Dog.new("Mutt")
